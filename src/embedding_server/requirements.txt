@@ -4,3 +4,5 @@ pydantic==2.3.0
 transformers
 torch
 typing_extensions
+pytest
+httpx
