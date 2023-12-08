@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  embedding_server:
+    build:
+      context: embedding_server
+      dockerfile: Dockerfile
+    env_file: .env
+    ports:
+      - ${EMBEDDING_SERVER_PORT}:${EMBEDDING_SERVER_PORT}
