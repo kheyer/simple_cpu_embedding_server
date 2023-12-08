@@ -17,6 +17,8 @@ git clone https://github.com/kheyer/simple_cpu_embedding_server
 cd simple_cpu_embedding_server/src
 
 docker-compose up -d --build
+
+docker-compose exec embedding_server tests/start-tests.sh
 ```
 
 ## Making Requests
